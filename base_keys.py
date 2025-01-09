@@ -20,6 +20,7 @@ KEYBOARD_WIDGET = "input:keyboard"
 YOLOV8_PROCESSOR = "processing:yolov8"
 AUDIO_CONTEXT_PROCESSOR = "processing:audioContext"
 WHISPER_PROCESSOR = "processing:whisper"
+HAND_PROCESSOR = "processing:sign_detector"
 
 LEARNING_SERVICE = "service:learning"
 RUNNING_SERVICE = "service:running"
