@@ -171,7 +171,9 @@ class HandSignDetector(BaseComponent):
             cv2.addWeighted(overlay, opacity, annotated_frame, 1 - opacity, 0, annotated_frame)
             cv2.putText(annotated_frame, str(sign), (x, 400), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 1)
             overlay = annotated_frame.copy()
-        print(self.detected_signs)
+        first_elements = [item[0] for item in self.detected_signs]
+        print(first_elements)
+
 
         
 
